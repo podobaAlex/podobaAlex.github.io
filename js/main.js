@@ -47,7 +47,6 @@ $(document).ready(() => {
   })
 
   cells.forEach((value, key) => {
-    // value.textContent = (i++).toString()
 
     value.oncontextmenu = () => {
 
@@ -60,7 +59,6 @@ $(document).ready(() => {
 
       if (value.classList.contains('field__cell_question')) {
         value.classList.remove('field__cell_question')
-        load(cells, key)
         return false
       }
 
