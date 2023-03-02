@@ -132,7 +132,7 @@ $(document).ready(() => {
         cells[key].classList.remove('field__cell_mine', 'field__cell_mine_marked')
         reserve.classList.add('field__cell_mine')
       }
-      
+
       reserve.classList.remove('reserve')
 
       let counter = 0
@@ -250,7 +250,7 @@ $(document).ready(() => {
       cells[arr_temp[i]].classList.add('field__cell_mine')
     }
 
-    cells[40].classList.add('reserve')
+    cells[arr_temp[40]].classList.add('reserve')
   }
 
 })

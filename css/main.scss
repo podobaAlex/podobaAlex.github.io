@@ -186,15 +186,15 @@
     &_marker {
       background: url("../img/minesweeper-sprites_9TPZzv3.png") no-repeat -34px -50px;
     }
-    
+
     &_question {
       background: url("../img/minesweeper-sprites_9TPZzv3.png") no-repeat -51px -50px;
+
       &:active {
         background: url("../img/minesweeper-sprites_9TPZzv3.png") no-repeat -68px -50px;
       }
     }
   }
-
 }
 
 .sapper {
