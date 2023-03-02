@@ -1,3 +1,5 @@
-README
+Инструкция по запуску игры "Сапёр"
 
-Игра сапёр - https://podobaalex.github.io
+1) Перейти по ссылке: https://podobaalex.github.io.
+
+2) Играть.
