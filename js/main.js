@@ -141,8 +141,6 @@ $(document).ready(() => {
         !element.classList.contains('field__cell_mine') ? counter++ : 0
       }
 
-      console.log(counter)
-
       cells.forEach((value, key) => {
         if (value.classList.contains('field__cell_mine')) return
 
